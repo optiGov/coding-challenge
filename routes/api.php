@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\ToDoController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -15,4 +16,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::resource("todos", ToDoController::class);
+Route::resource("todo", ToDoController::class);
+Route::resource("category", CategoryController::class);
