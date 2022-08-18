@@ -16,7 +16,7 @@ This should spin up the docker container, containing the laravel application and
 
 ### Migrate database
 Right after that we need to migrate the database. 
-So just execute the `php artisan migrate:fresh` command. E.g. wihtin the docker container:
+So just execute the `php artisan migrate:fresh` command. E.g. within the docker container:
 
 ```shell
 docker exec -ti "CONTAINER_NAME" php artisan migrate:fresh
