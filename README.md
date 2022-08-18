@@ -4,6 +4,14 @@ Great to have you here! You already got your instructions via the interview appl
 Here are the required steps to spin up the application.
 
 ## Set-Up Steps
+
+### Composer install
+First, you need to run the `composer install` command within the project:
+
+```shell
+composer install
+```
+
 ### Spin up the Laravel Sail service
 
 ***Hint:** This step requires Docker to be installed! If you are not comfortable with docker, you can edit the `.env` file and set up your own database environment.*
